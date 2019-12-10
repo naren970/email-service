@@ -20,7 +20,7 @@ module.exports = function(app, request, mongoose){
      * This API Will Accept the Body which Contains firstName, lastName, email, phone and saleId
      * Will return the status of Email Sent
      */
-    app.post('/sendoffer', function(req, res){
+    app.post('/senddeals', function(req, res){
         var body = req.body;
         console.log('The body ', body);
         //Validating the Body and Email Id
